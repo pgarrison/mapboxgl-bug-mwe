@@ -9,15 +9,15 @@ This requires Firefox and npm to be installed.
 Test output on my machine:
 ```
 $ firefox --version
-Mozilla Firefox 68.11.0esr
+Mozilla Firefox 68.12.0esr
 $ npm test
 > mwe@1.0.0 test /home/philipmg/workspace/coldchain/mwe
 > jest
 
- FAIL  ./test.js (20.675 s)
+ FAIL  ./test.js (21.302 s)
   Visualization end-to-end tests
     ✕ Headless driver fails to load completely (15011 ms)
-    ✓ Headful driver loads without issue (5154 ms)
+    ✓ Headful driver loads without issue (5882 ms)
 
   ● Visualization end-to-end tests › Headless driver fails to load completely
 
